@@ -4,8 +4,6 @@ WorkSphere is a full-stack employee and office management platform designed to m
 
 This repository contains the backend service of the WorkSphere application, built with Spring Boot and secured using Spring Security and JWT-based authentication.
 
----
-
 ## 🚀 Features
 
 - JWT-based authentication and authorization
@@ -26,12 +24,9 @@ This repository contains the backend service of the WorkSphere application, buil
 - MySQL database integration
 - RESTful API architecture
 
----
-
 ## 🛠️ Tech Stack
 
 ### Backend
-
 - Java 24
 - Spring Boot 4.1.1
 - Spring Security
@@ -42,14 +37,10 @@ This repository contains the backend service of the WorkSphere application, buil
 - Maven
 
 ### Database
-
 - MySQL 8
 
 ### API Testing
-
 - Postman
-
----
 
 ## 🔐 Security
 
@@ -64,22 +55,17 @@ Security features include:
 - Stateless authentication
 - CORS configuration
 - Public authentication endpoints
-- Protected management APIs
 - Centralized authentication handling
-
----
 
 ## 📦 Backend Modules
 
 ### Authentication
-
 - User registration
 - User login
 - JWT token generation
 - JWT token validation
 
 ### Employees
-
 - Create employee
 - View employees
 - Update employee
@@ -87,12 +73,10 @@ Security features include:
 - Employee status management
 
 ### Departments
-
 - Department management
 - Department-based employee organization
 
 ### Attendance
-
 - Employee check-in
 - Employee check-out
 - Personal attendance history
@@ -100,46 +84,38 @@ Security features include:
 - Attendance status tracking
 
 ### Leaves
-
 - Leave application
 - Leave management
 - Leave status tracking
 
 ### Tasks
-
 - Task creation and management
 - Task status tracking
 - Task assignment
 
 ### Documents
-
 - PDF document upload
 - Document management
 - File validation
 - Maximum upload size: 10 MB
 
 ### Notifications
-
 - User notifications
 - Notification read/unread status
 - Test notification support for administrators
 
 ### Audit Logs
-
 - Administrative activity tracking
 - Action-based filtering
 - Resource-based filtering
 - Pagination
 
 ### Dashboard
-
 - Employee statistics
 - Attendance summary
 - Leave summary
 - Task statistics
 - Recent activity information
-
----
 
 ## 🏗️ Project Structure
 
@@ -163,8 +139,6 @@ backend/
 └── README.md
 ```
 
----
-
 ## ⚙️ Environment Variables
 
 Sensitive configuration is not stored in the repository.
@@ -187,8 +161,6 @@ JWT_SECRET=your_secure_jwt_secret
 
 > Never commit real database passwords or JWT secrets to GitHub.
 
----
-
 ## 🗄️ Database Configuration
 
 WorkSphere uses MySQL as its relational database.
@@ -209,8 +181,6 @@ Port: 3306
 
 Database credentials should be provided through environment variables.
 
----
-
 ## ▶️ Run the Backend Locally
 
 ### 1. Clone the repository
@@ -227,7 +197,7 @@ cd worksphere-backend
 
 ### 3. Configure environment variables
 
-Set:
+Set the following variables:
 
 ```text
 DB_USERNAME
@@ -255,8 +225,6 @@ The backend will run on:
 http://localhost:8080
 ```
 
----
-
 ## 🧪 API Testing
 
 The WorkSphere REST APIs were tested using Postman.
@@ -281,8 +249,6 @@ Protected API requests use the JWT token in the `Authorization` header:
 Authorization: Bearer <JWT_TOKEN>
 ```
 
----
-
 ## 📌 API Highlights
 
 | Module | Example Endpoint |
@@ -297,8 +263,6 @@ Authorization: Bearer <JWT_TOKEN>
 | Notifications | `/api/notifications/**` |
 | Audit Logs | `/api/audit-logs` |
 | Dashboard | `/api/dashboard/summary` |
-
----
 
 ## 🧩 Architecture
 
@@ -336,11 +300,7 @@ Service
 Database
 ```
 
----
-
 ## 🔄 Request Flow
-
-A typical API request follows this flow:
 
 ```text
 Frontend
@@ -362,21 +322,15 @@ Response
 Frontend
 ```
 
----
-
 ## 🌐 Frontend
 
-The WorkSphere frontend is developed using React and is maintained in a separate repository.
-
-### Frontend Repository
+The WorkSphere frontend is maintained in a separate repository:
 
 https://github.com/Ashuyadav8177/worksphere-frontend
 
----
-
 ## 📊 Project Status
 
-WorkSphere backend is implemented and integrated with the React frontend.
+The WorkSphere backend is implemented and integrated with the React frontend.
 
 Core modules including:
 
@@ -393,8 +347,6 @@ Core modules including:
 
 are implemented and integrated with the application.
 
----
-
 ## 🔮 Future Enhancements
 
 - Email notification integration
@@ -405,8 +357,6 @@ are implemented and integrated with the application.
 - Advanced analytics
 - Improved monitoring and observability
 
----
-
 ## 👨‍💻 Author
 
 **Ashutosh Yadav**
@@ -415,6 +365,4 @@ B.Tech Information Technology
 
 ---
 
-## ⭐ Repository
-
-If you find this project useful, consider giving the repository a star.
+⭐ If you find this project useful, consider giving the repository a star.
